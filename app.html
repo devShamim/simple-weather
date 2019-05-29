@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TWApp</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="app-wrapper">
+        <div class="content-left">
+            <p class="date"></p>
+            <p class="time"></p>
+            <ul class="w-excerpt">
+                <li>Humidity: <span id="humidity"></span></li>
+                <li>Pressure: <span id="pressure"></span></li>
+                <li>Wind: <span id="wind"></span></li>
+            </ul>
+        </div>
+        <div class="content-right">
+            <div class="cw-image"><img src="img/w-icon.png" width="80" alt=""></div>
+            <p class="cw"></p>
+            <p class="location"></p>
+            <p class="wfeels"><span class="wfeels-rate"></span></p>
+            <p class="w-last-update"><span class="last_up"></span> <a href="#" class="refresh"><img
+                        src="img/refresh.png" alt="" width="30"></a>
+            </p>
+            <p class="notice">(Refresh to get updates)</p>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

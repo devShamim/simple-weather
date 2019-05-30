@@ -75,7 +75,11 @@ body, p, ul{
     align-items: center;
 }
 .content-right .w-last-update a{
-    margin-left: 15px;
+    margin-left: 10px;
+}
+.content-right .w-last-update .last_up{
+    font-size: 12px;
+    font-style: italic;
 }
 .content-right .location{
     margin-bottom: 10px;

@@ -35,6 +35,6 @@ refresh.addEventListener('click', f => {
             pressure.innerHTML = `${forecast.current.pressure_in}/inch`;
             wind.innerHTML = `${forecast.current.wind_kph}/kph`;
         });
-    lastUp.innerHTML = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
+    lastUp.innerHTML = `( Last Updated at ${d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })} )`;
     notice.style.display = "none";
 })
